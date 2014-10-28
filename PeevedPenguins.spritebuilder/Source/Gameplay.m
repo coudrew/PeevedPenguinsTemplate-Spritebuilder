@@ -13,9 +13,9 @@
     CCNode *_catapultArm;
 }
 
-- (void)didLoadFromCCB {
-    self.userInteractionEnabled = TRUE;
-}
+//- (void)didLoadFromCCB {
+//    self.userInteractionEnabled = TRUE;
+//}
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [self launchPenguin];
