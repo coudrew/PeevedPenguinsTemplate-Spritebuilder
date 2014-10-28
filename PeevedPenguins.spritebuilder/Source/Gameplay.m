@@ -13,4 +13,8 @@
     CCNode *_catapultArm;
 }
 
+- (void)didLoadFromCCB {
+    self.userInteractionEnabled = TRUE;
+}
+
 @end
