@@ -22,7 +22,7 @@ CCNode *_catapultArm;
 }
 
 - (void)launchPenguin {
-    CCNode *penguin = [CCBReader load:@"Penguin"];
+    CCNode* penguin = [CCBReader load:@"Penguin"];
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     [_physicsNode addChild:penguin];
     //create and apply force
