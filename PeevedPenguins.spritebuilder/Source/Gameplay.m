@@ -70,6 +70,7 @@
         _penguinCatapultJoint = nil;
         _currentPenguin.physicsBody.allowsRotation = TRUE;
         CCAction *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:follow];
     }
 }
 
