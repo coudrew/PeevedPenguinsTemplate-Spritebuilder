@@ -8,6 +8,6 @@
 
 #import "Gameplay.h"
 
-@implementation Gameplay {
+@implementation Gameplay 
 
 @end
