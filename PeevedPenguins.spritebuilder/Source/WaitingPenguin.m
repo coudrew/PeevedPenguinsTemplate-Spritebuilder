@@ -18,7 +18,7 @@
     [self performSelector:@selector(startBlinkAndJump) withObject:nil afterDelay:delay];
 }
 
-- (void)starBlinkAndJump
+- (void)startBlinkAndJump
 {
     //the animation manager of each node is stored in animationManager property
     CCAnimationManager* animationManager = self.animationManager;
