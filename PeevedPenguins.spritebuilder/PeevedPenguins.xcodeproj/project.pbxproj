@@ -36,6 +36,7 @@
 		B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
+		D91E1CD21A01294700D3860F /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1CD11A01294700D3860F /* WaitingPenguin.m */; };
 		D92B9A9519FDD7BC0032B698 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B9A9419FDD7BC0032B698 /* Penguin.m */; };
 		D92B9A9919FDD7EF0032B698 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B9A9819FDD7EF0032B698 /* Seal.m */; };
 		D9C8271819FFC90300CE71BF /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C8271719FFC90300CE71BF /* Gameplay.m */; };
@@ -93,6 +94,8 @@
 		B77F1B3F17B978D7009739AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B77F1B4117B978D7009739AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
+		D91E1CD01A01294700D3860F /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingPenguin.h; path = Source/WaitingPenguin.h; sourceTree = "<group>"; };
+		D91E1CD11A01294700D3860F /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingPenguin.m; path = Source/WaitingPenguin.m; sourceTree = "<group>"; };
 		D92B9A9319FDD7BC0032B698 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
 		D92B9A9419FDD7BC0032B698 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		D92B9A9719FDD7EF0032B698 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				D9C8271619FFC90300CE71BF /* Gameplay.h */,
 				D9C8271719FFC90300CE71BF /* Gameplay.m */,
+				D91E1CD01A01294700D3860F /* WaitingPenguin.h */,
+				D91E1CD11A01294700D3860F /* WaitingPenguin.m */,
 				D92B9A9319FDD7BC0032B698 /* Penguin.h */,
 				D92B9A9419FDD7BC0032B698 /* Penguin.m */,
 				D92B9A9719FDD7EF0032B698 /* Seal.h */,
@@ -357,6 +362,7 @@
 			files = (
 				D92B9A9919FDD7EF0032B698 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				D91E1CD21A01294700D3860F /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				D92B9A9519FDD7BC0032B698 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
