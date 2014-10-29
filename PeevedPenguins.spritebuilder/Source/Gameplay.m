@@ -8,6 +8,7 @@
 
 #import "Gameplay.h"
 
+
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
@@ -91,7 +92,17 @@
 
 - (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
 {
-    CCLOG(@"Something collided with a seal!");
+    float energy = [pair totalKineticEnergy];
+    
+    if (energy > 5000.f) {
+        [[_physicsNode space] addPostStepBlock:^{
+            [self sealRemoved:nodeA];
+        }key:nodeA];
+    }
+}
+
+- (void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
 }
 
 - (void)retry {
